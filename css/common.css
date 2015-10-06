@@ -1,0 +1,52 @@
+body{
+	font-family: 'Architects Daughter', cursive;
+		color:white;
+}
+label{
+	font-size:18px;
+	color:white;
+}
+header{
+	font-family: 'Architects Daughter', cursive;
+	color:white;
+	}
+#text{
+	margin-top:-29px;
+}
+body,head{
+	background-image:url(../back/auora.jpg);
+	height:100vh;
+}
+.placeholder{
+	opacity:.1;
+}
+#arrow{
+	border:1px solid black ;
+	padding:5px;
+	
+		
+}
+#submiting{
+	padding:10px;
+	background-color:#42a5f5;
+}
+@keyframes ex{
+	0%{transform:rotate(90deg);}
+	
+	25%{
+		transform:rotate(0deg);
+	}
+	50%{transform:rotate(180deg);}
+	100%{
+		transform:rotate(270deg);
+	}
+}
+#hilao{
+	transform:rotate(0deg);
+	margin-left:5px;
+animation-timing-function: linear;
+	animation-name:ex;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	
+}

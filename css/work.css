@@ -1,0 +1,68 @@
+/*work .css stylesheet*/
+body{
+	margin:0;
+	padding:0;
+	background-image:url(../back/7.jpg);
+}
+
+#header_image{
+	max-width:100%;
+	display:block;
+	height:300px;
+	width:1400px;
+	margin-left:-20px;
+	position:absolute;
+	opacity: 0.4;
+    filter: alpha(opacity=40); 
+	margin-top:6px;
+	
+	
+}
+#header_text{
+	font-family:cooper black,verdana;
+	font-size:25px;
+	margin-left:-10px;
+	color:black;
+	max-width:100%;
+	padding-right:;
+	display:block;
+	margin-top:-21px;
+	
+}
+.inc{
+	height:300px;
+	width:1360px;
+}
+#textin{
+	font-size:50px;
+	margin-left:20px;
+	margin-top:35px;
+}
+#regis_text{
+	font-family: 'Sigmar One', cursive;
+	font-size:30px;
+	padding:20px;
+	color:black;
+	
+}
+#upload{
+	padding:40px;
+	margin-top:-20px;
+}
+#age{
+	padding-left:100px;
+	padding-right:100px;
+}
+#gender{
+	padding-left:100px;
+	padding-right:100px;
+}
+#submit{
+	background-color:indigo;
+	color:white;
+	padding:15px;
+	margin-left:50px;
+	font-family: 'Sigmar One', cursive;
+	
+	
+}

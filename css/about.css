@@ -1,0 +1,122 @@
+body{
+	background-image:url(../back/yup.jpg);
+}
+#texts{
+	display:block;
+	text-align:center;
+	margin-top:-50px;
+	font-family:cooper black;
+}
+.head_icon{
+		margin-left:400px;
+		display:block;
+		max-width:100%;
+		border:0px solid grey;
+}
+header{
+	border:5px soild grey;
+}
+#info,#info1{
+	height:300px;
+	width:300px;
+	display:block;
+	max-width:100%;
+	margin:50px;
+	
+}
+#info1{
+	margin-top:140px;
+
+}
+#map_adjust{
+	margin-top:100px;
+}
+#demo{
+	font-family:'Architects Daughter', cursive;
+	font-size:25px;
+}
+#mapholder{
+	height:200px;
+	width:200px;
+	background-color:grey;
+}
+#images{
+  // -webkit-transform:skew(0deg);
+    position:absolute;
+	max-width:100% !important;
+	height:auto !important;
+	display:block;
+}
+#texts2{
+		max-width:100%;
+		height:auto;
+		display:block;
+       font-family:forte;
+       font-size:30px;
+       margin-top:90px;
+       margin-left:50px;
+       position:absolute;
+       width:400px;
+	   text-transform:capitalize;
+}
+@media(max-width : 800px){
+	#notepad{
+		display:none;
+	}
+}
+#notepad{
+	max-width:100% !important;
+	height:auto !important;
+	display:block;
+	margin-left:800px;
+	opacity:1;
+	float:left;
+	margin-top:-310px;
+}
+#text_earth{
+	z-index:2;
+	position:absolute;
+	margin-top:-50px;
+	margin-left:50px;
+	color:white;
+	font-family:'Architects Daughter', cursive;
+	font-size:25px;
+}
+
+#rou1
+{
+	
+z-index:1;
+-webkit-animation: spin1 2s infinite linear;
+-moz-animation: spin1 2s infinite linear;
+-o-animation: spin1 2s infinite linear;
+-ms-animation: spin1 2s infinite linear;
+animation: spin1 2s infinite linear; 
+margin-top:30px;
+margin-left:50px;
+   
+}
+ 
+@-webkit-keyframes spin1 {
+0% { -webkit-transform: rotate(0deg);}
+100% { -webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin1 {
+0% { -moz-transform: rotate(0deg); -moz-transform-origin: 50% 50%;}
+100% { -moz-transform: rotate(360deg);}
+}
+@-o-keyframes spin1 {
+0% { -o-transform: rotate(0deg);}
+100% { -o-transform: rotate(360deg);}
+}
+@-ms-keyframes spin1 {
+0% { -ms-transform: rotate(0deg);}
+100% { -ms-transform: rotate(360deg);}
+}
+@-keyframes spin1 {
+0% { transform: rotate(0deg); transform-origin: 50% 50%;}
+100% { transform: rotate(360deg); transform-origin: 50% 50%;}
+} 
+.smas{
+	font-size:10px;
+}

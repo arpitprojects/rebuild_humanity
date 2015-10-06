@@ -1,0 +1,208 @@
+/*this is to appen the text in the first post when opened*/
+#texting_wrap{
+	padding:15px;
+	text-align:center;
+}
+body{
+	display:block;
+	width:100%;
+	margin:0;
+	
+	color:black;
+	padding:2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	width:auto;
+	background-image:url(../images/.jpg);
+}
+header{
+	position:fixed;
+}
+#head_back{
+	width:100%;
+}
+#follow ul li{
+	width:60px;
+}
+#follow1,#follow2,#follow3,#follow4{
+	padding:10px;
+	
+}
+#follow3{
+	margin-left:-2px;
+}
+#follow2{
+	margin-left:-1px;
+}
+#list1 {
+	background-color:black ;
+	padding:5px;
+	font-size:12px;
+	opacity:.5;
+	color:#00e5ff;
+	font-family: 'Sigmar One', cursive;
+}
+#head_text{
+	font-family: 'Architects Daughter', cursive;
+	text-align:center;
+	margin:0 auto;
+	padding-top:10px;
+}
+#align{
+	text-align:center;
+	display:block;
+	padding:12px;
+}
+
+.cola{
+	display:none;
+}
+#search{
+	text-align:center;
+	opacity:.6;
+}
+#logo{
+	padding:10px;
+	
+}
+#text{
+	margin-left:50px;
+	color:#42a5f5;
+}
+#colori{
+	color:#00b8d4;
+	
+}
+
+.enla{
+	font-size:35px;
+}
+/*name adjusting that what i was needed*/
+#adjust_name{
+	margin-top:100px;
+	margin-left:300px;
+	position:;
+	font-size:30px;
+	width:100px;
+	text-transform:capitalize;
+	font-family:aharoni;
+}
+#logo1{
+	display: block;
+  max-width: 78%;
+  height: 200px;
+}
+.sept{
+	border:2px solid grey;
+	margin:0 auto 500px;
+	display:block;
+	width:700px;
+	padding:10px;
+	width:90%;
+}
+#shift{
+	float:right;
+	margin-top:-360px;
+}
+#images{
+	float:right;
+	width:200px;
+}
+#naving{
+	max-width:100%;
+	display:block;
+}
+#texting{
+	float:left;
+	text-align:center;
+	font-family:verdana;
+	text-transform:capitalize;
+	max-width:900px;
+	width:100%;
+	display:block;
+	padding:10px;
+	
+}
+.clear{
+	display:block;
+	clear:both;
+}
+#posts{
+	margin-left:900px;
+	display:block;
+	font-size:25px;
+	margin-top:-45px;
+font-family: 'Quicksand', sans-serif;
+}
+#images1{
+	height:300px;
+}
+#last_section{
+	background-image:url(../back/10.jpg);
+	padding-bottom:15px;
+	padding-top:20px;
+	
+}
+#setu{
+	position:absolute;
+	width:300px;
+	margin-top:-250px;
+	margin-left:6px;
+	text-align:center;
+	font-family: 'Architects Daughter', cursive;
+	font-size:20px;
+	
+}
+#setu1,#setu2,#setu3{
+		position:absolute;
+	width:300px;
+	margin-top:-250px;
+	margin-left:6px;
+	text-align:center;
+	font-family: 'Architects Daughter', cursive;
+	font-size:20px;
+	
+}
+.aage:hover{
+	margin-left:4px;
+	color:grey;
+	opacity:.8;
+}
+/*liking button concept*/
+#appearhoga{
+	display:none;
+}
+#section_user{
+	float:left;
+	border:1px solid black;
+	width:400px;
+	padding:20px;
+	color:grey;
+	font-size:20px;
+}
+.color-change{
+	font-family: 'Architects Daughter', cursive;
+	
+}
+#user_input{
+	border:2px solid black;
+	width:100%;
+	display:block;
+	padding:5px;
+}
+#adjust_button{
+	padding:10px;
+	color:white;
+	background-color:#42a5f5;
+	margin-left:220px;
+}
+#message_set{
+	padding:10px;
+	color:grey;
+	border:1px solid black;
+	margin-top:50px;
+	display:block;
+	width:100%;
+	text-align:center;
+	font-family: 'Architects Daughter', cursive;
+	
+}
